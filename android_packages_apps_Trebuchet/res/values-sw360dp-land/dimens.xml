@@ -15,7 +15,17 @@
 -->
 
 <resources>
-    <dimen name="sliding_panel_padding">125dp</dimen>
-    <dimen name="overview_panel_top_padding">10dp</dimen>
-    <dimen name="overview_panel_bottom_padding">20dp</dimen>
+<!-- Workspace -->
+    <!-- Panel height -->
+    <dimen name="sliding_panel_padding">120dp</dimen>
+    <!-- space needed to not overlap the statebar -->
+    <dimen name="overview_panel_top_padding">20dp</dimen>
+    <!-- space below the image -->
+    <dimen name="overview_panel_bottom_padding">10dp</dimen>
+    <!-- lateral space from the edge of the screen -->
+    <dimen name="overview_panel_button_spacing">30dp</dimen>
+    <!-- Arrow size that expand or collapse sliding menu -->
+    <dimen name="overview_panel_handle_size">25dp</dimen>
+    <!-- resize pages preview -->
+    <dimen name="overview_scaling_padding">40dp</dimen>
 </resources>
