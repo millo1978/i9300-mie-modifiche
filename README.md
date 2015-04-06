@@ -9,4 +9,5 @@ Caricate sul cyanogenmod.code.review.
 Alcune MERGED, altre in attesa.
 
 
-Alcune modifiche prese da MarcKe, JustArchi, e altri (grazie a loro per l'ottimo lavoro)
+
+Modifiche al Kernel prese da MarcKe, JustArchi, andip71, yank555-lu, e altri (grazie a loro per l'ottimo lavoro)
