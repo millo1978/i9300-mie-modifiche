@@ -267,7 +267,7 @@ static void print_cpu(struct seq_file *m, int cpu)
 	P(nr_running);
 	SEQ_printf(m, "  .%-30s: %d.%03d   \n", "ave_nr_running",
 		   rq->ave_nr_running / FIXED_1,
-
+		   ((rq->ave_nr_running % FIXED_1) * 1000) / FIXED_1);
 	SEQ_printf(m, "  .%-30s: %lu\n", "load",
 		   rq->load.weight);
 	P(nr_switches);
