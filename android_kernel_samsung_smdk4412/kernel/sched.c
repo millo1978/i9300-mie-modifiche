@@ -1815,6 +1815,7 @@ static void inc_nr_running(struct rq *rq)
 
 static void dec_nr_running(struct rq *rq)
 {
+	do_avg_nr_running(rq);
 	rq->nr_running--;
 }
 
